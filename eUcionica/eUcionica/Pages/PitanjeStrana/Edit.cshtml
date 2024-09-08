@@ -1,0 +1,61 @@
+﻿@page
+@model eUcionica.Pages.PitanjeStrana.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Izmeni</h1>
+
+<h4>Pitanje</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Pitanje.ID" />
+            <div class="form-group">
+                <label asp-for="Pitanje.PredmetID" class="control-label"></label>
+                <select asp-for="Pitanje.PredmetID" class="form-control" asp-items="ViewBag.PredmetID"></select>
+                <span asp-validation-for="Pitanje.PredmetID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pitanje.OblastID" class="control-label"></label>
+                <select asp-for="Pitanje.OblastID" class="form-control" asp-items="ViewBag.OblastID"></select>
+                <span asp-validation-for="Pitanje.OblastID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pitanje.Tezina" class="control-label"></label>
+                <input asp-for="Pitanje.Tezina" class="form-control" />
+                <span asp-validation-for="Pitanje.Tezina" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pitanje.Zadatak" class="control-label"></label>
+                <input asp-for="Pitanje.Zadatak" class="form-control" />
+                <span asp-validation-for="Pitanje.Zadatak" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pitanje.Odgovor" class="control-label"></label>
+                <input asp-for="Pitanje.Odgovor" class="form-control" />
+                <span asp-validation-for="Pitanje.Odgovor" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pitanje.Slika" class="control-label"></label>
+                <input asp-for="Pitanje.Slika" class="form-control" />
+                <span asp-validation-for="Pitanje.Slika" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Sacuvaj promene" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Pitanja">Nazad na listu</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

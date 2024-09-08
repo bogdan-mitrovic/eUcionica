@@ -1,0 +1,35 @@
+﻿@page
+@model eUcionica.Pages.PredmetStrana.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Dodaj novi predmet</h1>
+
+<h4>Predmet</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Predmet.Ime" class="control-label"></label>
+                <input asp-for="Predmet.Ime" class="form-control" />
+                <span asp-validation-for="Predmet.Ime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Dodaj" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Predmeti">Nazad na listu</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

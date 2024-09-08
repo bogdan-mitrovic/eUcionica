@@ -1,0 +1,12 @@
+C:\Users\Korisnik\source\repos\eUcionica\DatabaseEntityLib\bin\Debug\net6.0\DatabaseEntityLib.deps.json
+C:\Users\Korisnik\source\repos\eUcionica\DatabaseEntityLib\bin\Debug\net6.0\DatabaseEntityLib.dll
+C:\Users\Korisnik\source\repos\eUcionica\DatabaseEntityLib\bin\Debug\net6.0\DatabaseEntityLib.pdb
+C:\Users\Korisnik\source\repos\eUcionica\DatabaseEntityLib\obj\Debug\net6.0\DatabaseEntityLib.csproj.AssemblyReference.cache
+C:\Users\Korisnik\source\repos\eUcionica\DatabaseEntityLib\obj\Debug\net6.0\DatabaseEntityLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korisnik\source\repos\eUcionica\DatabaseEntityLib\obj\Debug\net6.0\DatabaseEntityLib.AssemblyInfoInputs.cache
+C:\Users\Korisnik\source\repos\eUcionica\DatabaseEntityLib\obj\Debug\net6.0\DatabaseEntityLib.AssemblyInfo.cs
+C:\Users\Korisnik\source\repos\eUcionica\DatabaseEntityLib\obj\Debug\net6.0\DatabaseEntityLib.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\source\repos\eUcionica\DatabaseEntityLib\obj\Debug\net6.0\DatabaseEntityLib.dll
+C:\Users\Korisnik\source\repos\eUcionica\DatabaseEntityLib\obj\Debug\net6.0\refint\DatabaseEntityLib.dll
+C:\Users\Korisnik\source\repos\eUcionica\DatabaseEntityLib\obj\Debug\net6.0\DatabaseEntityLib.pdb
+C:\Users\Korisnik\source\repos\eUcionica\DatabaseEntityLib\obj\Debug\net6.0\ref\DatabaseEntityLib.dll

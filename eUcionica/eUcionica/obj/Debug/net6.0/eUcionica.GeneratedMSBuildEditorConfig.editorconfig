@@ -1,0 +1,103 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = eUcionica
+build_property.RootNamespace = eUcionica
+build_property.ProjectDir = C:\Users\Korisnik\source\repos\eUcionica\eUcionica\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Korisnik\source\repos\eUcionica\eUcionica
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Korisnik/source/repos/eUcionica/eUcionica/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Korisnik/source/repos/eUcionica/eUcionica/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Korisnik/source/repos/eUcionica/eUcionica/Pages/OblastStrana/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2JsYXN0U3RyYW5hXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Korisnik/source/repos/eUcionica/eUcionica/Pages/OblastStrana/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2JsYXN0U3RyYW5hXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Korisnik/source/repos/eUcionica/eUcionica/Pages/OblastStrana/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2JsYXN0U3RyYW5hXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Korisnik/source/repos/eUcionica/eUcionica/Pages/OblastStrana/Oblasti.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2JsYXN0U3RyYW5hXE9ibGFzdGkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Korisnik/source/repos/eUcionica/eUcionica/Pages/PitanjeStrana/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGl0YW5qZVN0cmFuYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Korisnik/source/repos/eUcionica/eUcionica/Pages/PitanjeStrana/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGl0YW5qZVN0cmFuYVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Korisnik/source/repos/eUcionica/eUcionica/Pages/PitanjeStrana/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGl0YW5qZVN0cmFuYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Korisnik/source/repos/eUcionica/eUcionica/Pages/PitanjeStrana/Pitanja.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGl0YW5qZVN0cmFuYVxQaXRhbmphLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Korisnik/source/repos/eUcionica/eUcionica/Pages/PredmetStrana/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlZG1ldFN0cmFuYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Korisnik/source/repos/eUcionica/eUcionica/Pages/PredmetStrana/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlZG1ldFN0cmFuYVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Korisnik/source/repos/eUcionica/eUcionica/Pages/PredmetStrana/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlZG1ldFN0cmFuYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Korisnik/source/repos/eUcionica/eUcionica/Pages/PredmetStrana/Predmeti.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlZG1ldFN0cmFuYVxQcmVkbWV0aS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Korisnik/source/repos/eUcionica/eUcionica/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Korisnik/source/repos/eUcionica/eUcionica/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Korisnik/source/repos/eUcionica/eUcionica/Pages/TestStrana/GenerisaniTest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdFN0cmFuYVxHZW5lcmlzYW5pVGVzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Korisnik/source/repos/eUcionica/eUcionica/Pages/TestStrana/Test.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdFN0cmFuYVxUZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Korisnik/source/repos/eUcionica/eUcionica/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Korisnik/source/repos/eUcionica/eUcionica/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Korisnik/source/repos/eUcionica/eUcionica/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-v6zfz9zx1l

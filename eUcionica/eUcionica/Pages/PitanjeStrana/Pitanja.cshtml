@@ -1,0 +1,66 @@
+﻿@page
+@model eUcionica.Pages.PitanjeStrana.PitanjaModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Pitanja</h1>
+
+<p>
+    <a asp-page="Create">Dodaj novo pitanje</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Pitanje[0].Predmet)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pitanje[0].Oblast)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pitanje[0].Tezina)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pitanje[0].Zadatak)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pitanje[0].Odgovor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pitanje[0].Slika)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Pitanje) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Predmet.Ime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Oblast.Ime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tezina)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Zadatak)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Odgovor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Slika)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Uredi</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ID">Izbrisi</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
